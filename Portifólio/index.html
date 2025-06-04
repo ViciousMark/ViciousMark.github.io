@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Moderno</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menu Mobile -->
+    <div class="menu-mobile" id="menuMobile">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <button id="closeMenu"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- Header -->
+    <header>
+    <a href="#home" class="logo">
+        <img src="logo.png" alt="Logo Dev">
+    </a>
+    <nav class="desktop-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <button id="openMenu"><i class="fas fa-bars"></i></button>
+</header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Olá, eu sou <span>Marcos!</span></h2>
+            <p>Desenvolvedor FullStack</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="sobre">
+        <h2><span>//</span> Sobre Mim</h2>
+        <div class="sobre-content">
+            <p>
+                Sou um desenvolvedor apaixonado por criar soluções modernas e responsivas. 
+                Tenho experiência em HTML, CSS e JavaScript.
+            </p>
+            <div class="habilidades">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Mobile</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos">
+        <h2><span>//</span> Projetos</h2>
+        <div class="projetos-grid">
+            <!-- Projeto 1 -->
+            <div class="projeto-card">
+                <img src="jwt.png" alt="Projeto 1">
+                <h3>Sistema Login</h3>
+                <p>Sistema de Login contendo Token JWT</p>
+                <a href="https://github.com/ViciousMark/Login-JWT.git" class="btn">Demo</a>
+                <a href="https://github.com/ViciousMark/Login-JWT.git" class="btn-outline">Código</a>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="projeto-card">
+                <img src="ProjetoBiblio.png" alt="Projeto 2">
+                <h3>Projeto Biblioteca</h3>
+                <p>Projeto Biblioteca com implementação de API</p>
+                <a href="https://github.com/ViciousMark/Projeto-Biblio.git" class="btn">Demo</a>
+                <a href="https://github.com/ViciousMark/Projeto-Biblio.git" class="btn-outline">Código</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2><span>//</span> Contato</h2>
+        <div class="contato-links">
+            <a href="mailto:mv3948585@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://github.com/ViciousMark"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/seuusuario"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 <span>Marcos</span>. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
